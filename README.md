@@ -31,39 +31,6 @@ The application loads a speech text, generates embeddings, stores them in Chroma
 
 ## 📂 Project Structure
 
-# AmbedkarGPT – Speech Q&A using LangChain, Chroma & Ollama
-
-AmbedkarGPT is a command-line Question & Answer chatbot built using:
-- **LangChain**
-- **ChromaDB vector database**
-- **HuggingFace sentence embeddings**
-- **Ollama (Mistral model)**
-
-The application loads a speech text, generates embeddings, stores them in Chroma, and performs semantic search to answer questions from the speech.
-
----
-
-## 🚀 Features
-- Local embeddings & vector search (no cloud required)
-- Works fully **offline** after model is downloaded
-- Simple CLI interface for asking questions interactively
-- Uses **Mistral** via Ollama for answer generation
-
----
-
-## 🧠 Tech Stack
-
-| Component | Technology |
-|-----------|-----------|
-| LLM | Ollama `mistral` |
-| Embeddings | Sentence-Transformers `all-MiniLM-L6-v2` |
-| Vector DB | ChromaDB |
-| Framework | LangChain |
-
----
-
-## 📂 Project Structure
-
 AmbedkarGPT-Intern-Task
 │── main.py # Main Q&A script
 │── speech.txt # Speech text
